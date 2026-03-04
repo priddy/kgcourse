@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mjp: <https:/priddy.github.io/kgcourse/> .
+
+mjp:Person a rdfs:Class ;
+	rdfs:label "Person"@en ;
+	rdfs:comment "someone"@en .
+	
+mjp:givenName a rdf:Property ;
+	rdfs:label "givenName"@en ;
+	rdfs:comment "Given Name"@en ;
+	rdfs:domain mjp:Person ;
+	rdfs:range rdfs:Literal .
+	
+mjp:familyName a rdf:Property ;
+	rdfs:label "familyName"@en ;
+	rdfs:comment "Family Name"@en ;
+	rdfs:domain mjp:Person ;
+	rdfs:range rdfs:Literal .
+	
+mjp:Company a rdfs:Class ;
+    rdfs:label "Company"@en ;
+    rdfs:comment "An organisation"@en.	
+	
+mjp:worksFor a rdf:Property ;
+    rdfs:label "works for"@en ;
+    rdfs:comment "what someone does 8 hours a day"@en ;
+	rdfs:domain mjp:Person ;
+	rdfs:range mjp:Company .
+	
+mjp:compEmail a rdf:Property ;
+	rdfs:label "compEmail"@en ;
+	rdfs:comment "A persons company email address"@en ;
+	rdfs:domain mjp:Person ;
+	rdfs:range rdfs:Literal .
+	
+mjp:colleague a rdf:Property ;
+	rdfs:label "colleague"@en ;
+	rdfs:domain mjp:Person ;
+	rdfs:range mjp:Person .
+	
+	
+	
