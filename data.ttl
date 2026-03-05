@@ -1,5 +1,5 @@
 @prefix mjp: <https:/priddy.github.io/kgcourse/> .
-@prefix lin: <https://lindareijnhoudt.github.io/KGcourse/#linda> .
+# @prefix lin: <https://lindareijnhoudt.github.io/KGcourse/#linda> .
 @prefix schema:<http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
