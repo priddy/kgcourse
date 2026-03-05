@@ -10,7 +10,7 @@
 	mjp:familyName "Priddy"^^xsd:string ;
 	mjp:worksFor  <https://dans.knaw.nl> ;
 	mjp:compEmail "mike.priddy@dans.knaw.nl"^^xsd:string ;
-	mjp:colleague  lin:Person .
+	mjp:colleague  <https://lindareijnhoudt.github.io/KGcourse#linda> .
 
 	
 <https://dans.knaw.nl>
