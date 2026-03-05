@@ -4,13 +4,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-<https://priddy.github.io/kgcourse#mike
+<https://priddy.github.io/kgcourse#mike>
 	a mjp:Person ; 
 	mjp:givenName "Michael"^^xsd:string ;
 	mjp:familyName "Priddy"^^xsd:string ;
 	mjp:worksFor  <https://dans.knaw.nl> ;
 	mjp:compEmail "mike.priddy@dans.knaw.nl"^^xsd:string ;
-	mjp:colleague lin ;
+	mjp:colleague  lin:Person .
 
 	
 <https://dans.knaw.nl>
