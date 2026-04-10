@@ -1,0 +1,16 @@
+{
+  "name": "ldes-shacl-lab",
+  "version": "1.0.0",
+  "description": "Lab exercise to publish an LDES and describe its members with SHACL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Julian Rojas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ldes-client": "^0.3.2",
+    "n3": "^2.0.3"
+  }
+}
